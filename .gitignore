@@ -1,0 +1,48 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+*.out
+*.err
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+dist/
+build/
+.cache/
+.tmp/
+
+# SQLite DB files
+server/*.db
+server/*.db-journal
+
+# Vite / React
+client/.vite/
+client/dist/
+client/.cache/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE junk
+.vscode/
+.idea/
+*.swp
+*.swo
