@@ -76,9 +76,9 @@ app.get('/api/recipes/search', async (req, res) => {
       params.push(`%${String(title).toLowerCase()}%`);
     }
     if (cuisine) {
-      where.push('LOWER(cuisine) = ?');
-      params.push(String(cuisine).toLowerCase());
-    }
+        where.push('LOWER(cuisine) LIKE ?');
+        params.push(`%${String(cuisine).toLowerCase()}%`);
+      }
     if (calories) {
       const { op, val } = parseOp(calories);
       where.push(`calories ${op} ?`);

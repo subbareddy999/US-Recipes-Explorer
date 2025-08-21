@@ -1,39 +1,38 @@
 ```markdown
 # 🍴 US Recipes Explorer
 
-A modern full-stack web application to explore US recipes with search, filters, pagination, and detailed nutritional information.
-Built with **Vite + React (frontend)** and **Node.js + Express + SQLite (backend)**.
+Discover and explore a collection of US recipes with a clean, modern interface.
+Search, filter, and view detailed nutrition facts — all powered by a fast Node.js + SQLite backend and a sleek React (Vite) frontend.
 
 ---
 
 ## 🚀 Features
 
-- Browse a large dataset of US recipes.
-- Powerful search & filters:
-  - Title
-  - Cuisine
-  - Rating
-  - Total Time
-  - Calories
-- Pagination with adjustable page size.
-- Recipe details in a **modern sliding drawer**:
-  - Description
-  - Quick facts (total time, serves, calories)
-  - Nutrition breakdown
-- Fully **responsive** (mobile, tablet, desktop).
-- Clean **bright theme** with modern UI components.
+- 🔍 **Smart Search & Filters** — find recipes by title, cuisine, rating, total time, and calories.
+- 📊 **Pagination Controls** — smooth navigation with adjustable page size.
+- 🥗 **Detailed Recipe Drawer** — slide-in panel with description, quick facts, and nutrition breakdown.
+- 📱 **Responsive Design** — optimized for mobile, tablet, and desktop.
+- 🎨 **Modern Bright Theme** — minimal, vibrant UI with animations.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React (Vite), TailwindCSS, Framer Motion, Lucide Icons
-- **Backend**: Node.js, Express, SQLite3
-- **Database**: SQLite (seeded from `US_recipes.json`)
+**Frontend**
+- React (Vite) ⚡
+- TailwindCSS 🎨
+- Framer Motion ✨
+- Lucide Icons
 
----
+**Backend**
+- Node.js + Express 🚀
+- SQLite3 (seeded from `US_recipes.json`) 🗄️
+
+```
 
 ## 📂 Project Structure
+
+```
 
 recipes-assessment/
 ├── client/          # Frontend (Vite + React)
@@ -57,6 +56,7 @@ recipes-assessment/
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the repo
+
 ```bash
 git clone https://github.com/subbareddy999/US-Recipes-Explorer.git
 cd recipes-assessment
@@ -68,7 +68,7 @@ cd recipes-assessment
 cd server
 npm install
 npm run seed   # seeds database from US_recipes.json
-npm start      # starts backend on http://localhost:5000
+npm start      # runs backend at http://localhost:5000
 ```
 
 ### 3. Frontend Setup
@@ -76,19 +76,55 @@ npm start      # starts backend on http://localhost:5000
 ```bash
 cd ../client
 npm install
-npm run dev    # starts frontend on http://localhost:5173
+npm run dev    # runs frontend at http://localhost:5173
 ```
 
 ---
 
 ## 🌐 API Endpoints
 
-| Method | Endpoint                  | Description                   |
-| ------ | ------------------------- | ----------------------------- |
-| GET    | `/api/recipes`            | Get paginated list of recipes |
-| GET    | `/api/recipes/:id`        | Get single recipe by ID       |
-| GET    | `/api/recipes/search?...` | Search recipes with filters   |
+| Method | Endpoint                  | Description                 |
+| ------ | ------------------------- | --------------------------- |
+| GET    | `/api/recipes`            | Paginated list of recipes   |
+| GET    | `/api/recipes/:id`        | Single recipe by ID         |
+| GET    | `/api/recipes/search?...` | Search recipes with filters |
 
-### 👇🏻
+---
 
-Assignment submission for Securin
+## 📸 Screenshots
+
+### 🖥️ Desktop
+
+- **Home / Table View**
+  ![Desktop View](./screenshots/desktop-view.png)
+- **Recipe Drawer**
+  ![Desktop Info Card](./screenshots/desktop-info-card.png)
+- **Search Results**
+  ![Desktop Searching](./screenshots/desktop-searching.png)
+- **Search Results (Filtered)**
+  ![Desktop Searching 2](./screenshots/desktop-searching2.png)
+
+### 📱 Mobile
+
+- **Mobile Home**
+  ![Mobile View](./screenshots/mobile-view.png)
+- **Mobile Recipe Drawer**
+  ![Mobile Info Card](./screenshots/mobile-info-card.png)
+- **Mobile Search**
+  ![Mobile Search](./screenshots/mobile-search.png)
+
+---
+
+## ✅ Deliverables
+
+- Backend API with SQLite
+- Database seeded from `US_recipes.json`
+- React frontend with filters, pagination, drawer
+- Responsive modern UI
+
+---
+
+## 👨‍💻 Author
+
+Developed by subbareddy_k,
+Assignment submission for **Securin**
