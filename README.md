@@ -1,4 +1,3 @@
-```markdown
 # 🍴 US Recipes Explorer
 
 Discover and explore a collection of US recipes with a clean, modern interface.
@@ -28,7 +27,6 @@ Search, filter, and view detailed nutrition facts — all powered by a fast Node
 - Node.js + Express 🚀
 - SQLite3 (seeded from `US_recipes.json`) 🗄️
 
-```
 
 ## 📂 Project Structure
 
